@@ -2,28 +2,17 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>DataPattern</artifactId>
+        <groupId>com.dp</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dp</groupId>
-    <artifactId>DataPattern</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>AbstractFactory</module>
-        <module>Builder</module>
-        <module>Prototype</module>
-        <module>Proxy</module>
-        <module>SimpleFactory</module>
-        <module>TemplateMethod</module>
-        <module>Mediator</module>
-        <module>Command</module>
-        <module>Chain</module>
-        <module>Iterator</module>
-        <module>Adapter</module>
-        <module>Bridge</module>
-    </modules>
+    <artifactId>Bridge</artifactId>
 
-    <name>DataPattern</name>
+    <name>Bridge</name>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,11 +26,6 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.18</version>
         </dependency>
     </dependencies>
 
